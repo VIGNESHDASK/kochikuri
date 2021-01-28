@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'kochikuri.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-'''DATABASES = {
+DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.mysql', 
         'NAME': 'kochi',
@@ -90,11 +90,9 @@ WSGI_APPLICATION = 'kochikuri.wsgi.application'
 
        # Or an IP Address that your DB is hosted on
         }
-    }'''
+    }
 
-import dj-database-url
-db_from_env = dj-database-url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
+
 
 
 # Password validation

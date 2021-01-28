@@ -130,12 +130,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 
-<<<<<<< HEAD
 
-]
-=======
->>>>>>> 22aa295be841081e6772fbd24dc11cbad3d8dfe5
 #STATIC_ROOT = os.path.join(BASE_DIR,'assets')
 
 # Activate Django-Heroku.
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 django_heroku.settings(locals())

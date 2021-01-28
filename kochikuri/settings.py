@@ -29,7 +29,7 @@ SECRET_KEY = 'zzkz+34vw0oph#tau)dz6kqpaj=afp0xuzrz*j^rvmoq%6@fh2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','kochikuri.herokuapp.com']
 
 
 # Application definition
@@ -130,8 +130,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 
+<<<<<<< HEAD
 
 ]
+=======
+>>>>>>> 22aa295be841081e6772fbd24dc11cbad3d8dfe5
 #STATIC_ROOT = os.path.join(BASE_DIR,'assets')
 
 # Activate Django-Heroku.
